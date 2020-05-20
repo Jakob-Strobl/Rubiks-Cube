@@ -11,6 +11,8 @@ This was the final project for my Computer Graphics class during my Computer Sci
 The controls are based on the intial perspective of the rubiks cube when you start the program. 
 So the front face is based on the angle when you first start the program, not the face you see after rotating.
 
+### Q - Quit Program
+
 ### F - Move Front Face (Green side)
 
 ### D - Rotate Bottom Face
