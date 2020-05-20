@@ -6,6 +6,8 @@
 
 This was the final project for my Computer Graphics class during my Computer Science Undergrad at Pitt. Majority of the source code was written by me, the rest was provided by my professor (see below). This project combined all the topics we learned during the course: Generating and loading geometry, animation (tied to FPS :/ - time constraints), arcball rotation with the mouse, perspective projection, surface normals, Phong's lighting model / some minor shader programming.
 
+## [Demo: Video Link](https://www.youtube.com/watch?v=98dx05yLDUw)
+
 ## Controls
 
 The controls are based on the intial perspective of the rubiks cube when you start the program. 
