@@ -328,7 +328,7 @@ void init(void) {
     }
 
 
-    // Set up the ctms
+    // Set up the ctms for each cube
     GLfloat x, y, z;
     int x_index, y_index, z_index;
     y_index = 1;
@@ -419,7 +419,7 @@ void display(void) {
     glUniformMatrix4fv(mv_location, 1, GL_FALSE, (GLfloat *) &model_view);
     glUniformMatrix4fv(projection_location, 1, GL_FALSE, (GLfloat *) &projection);
 
-    // Draw sphere
+    // Draw cubes
     for (i = 0; i < 27; i++) {
         glUniformMatrix4fv(cubie_ctm_location, 1, GL_FALSE, (GLfloat *) &cubie_ctm[i]);
         glDrawArrays(GL_TRIANGLES, 0, num_vertices);  // Draw using triangles, use triangles from index by a number
@@ -688,7 +688,7 @@ int main(int argc, char **argv) {
     glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE | GLUT_DEPTH); 
     glutInitWindowSize(WINDOW_WIDTH, WINDOW_HEIGHT);       // Set window size
     glutInitWindowPosition(100,100);    // Set position
-    glutCreateWindow("Project 4");  // Set window name
+    glutCreateWindow("Rubik's Cube");  // Set window name
     
     model_view = *look_at((vec4){0, 0, 1.5, 0}, (vec4){0, 0, 0, 0}, (vec4){0, 1, 0, 0});
     projection = *perspective(90, 1, -0.1, -9);
