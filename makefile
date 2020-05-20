@@ -7,7 +7,7 @@ EXC = main # The name of executable
 
 # Libraries depending on OS
 MACLIBS = -L/System/Library/Frameworks -framework GLUT -framework OpenGL
-UNIXLIBS = -lglut -lGLEW -lGLU -lm -lGL -lpthread
+LINUXLIBS = -lglut -lGLEW -lGLU -lm -lGL -lpthread
 
 default:
 	@echo ""
@@ -36,7 +36,7 @@ mac: $(OBJ)
 
 # Unix Make Configs - I use OpenSUSE so mileage may vary.
 linux: $(OBJ)
-	$(CC) -o $(EXC) $^ $(UNIXLIBS)
+	$(CC) -o $(EXC) $^ $(LINUXLIBS)
 
 
 # Clean config
