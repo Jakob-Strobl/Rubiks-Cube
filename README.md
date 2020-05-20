@@ -4,7 +4,7 @@
 
 ## About
 
-This was the final project for my Computer Graphics class during my Computer Science Undergrad at Pitt. Majority of the source code was written by me, the rest was provided by my professor (see below). This project combined all the topics we learned during the course: Generating and loading geometry, animation, arcball rotation with the mouse, surface normals, Phong's lighting model / some minor shader programming.
+This was the final project for my Computer Graphics class during my Computer Science Undergrad at Pitt. Majority of the source code was written by me, the rest was provided by my professor (see below). This project combined all the topics we learned during the course: Generating and loading geometry, animation (tied to FPS :/ - time constraints), arcball rotation with the mouse, surface normals, Phong's lighting model / some minor shader programming.
 
 ## Controls
 
