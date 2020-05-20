@@ -35,7 +35,7 @@ mac: $(OBJ)
 	$(CC) -o $(EXC) $^ $(MACLIBS)
 
 # Unix Make Configs - I use OpenSUSE so mileage may vary.
-unix: $(OBJ)
+linux: $(OBJ)
 	$(CC) -o $(EXC) $^ $(UNIXLIBS)
 
 
