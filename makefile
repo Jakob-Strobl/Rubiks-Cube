@@ -15,15 +15,8 @@ default:
 	@echo ""
 	@echo "Please type:"
 	@echo "  'make mac' for MacOS devices,"
-	@echo "  'make unix' for linux devices."
+	@echo "  'make linux' for linux devices."
 	@echo ""
-	@echo "             ***** For Testing ***** "
-	@echo "  'make macunit' for unit testing on MacOS devices,"
-	@echo "  'make unixunit' for unit testing on linux devices."
-	@echo ""
-	@echo "  'make testUnix' for the required test file (test.c) on MacOS,"
-	@echo "  'make testMac' for the required test file (test.c) on linux devices."
-	
 
 # Create C object files from source code.
 %.o: %.c $(HEAD)
